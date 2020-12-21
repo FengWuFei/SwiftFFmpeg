@@ -11,6 +11,7 @@ import Darwin
 import Glibc
 #endif
 import CFFmpeg
+import SwiftOverlayShims
 
 public typealias AVGetFormatHandler = (AVCodecContext, [AVPixelFormat]) -> AVPixelFormat
 
